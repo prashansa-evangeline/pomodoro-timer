@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.dark .timer {
+  background-color: #2d3748;
+  color: #cbd5e0;
+}
+
+.dark .btn-primary {
+  border-color: #63b3ed;
+  color: #63b3ed;
+}
+
+.dark .btn-primary:hover {
+  background-color: #63b3ed;
+  color: #1a202c;
+}
+
+.dark .btn-secondary {
+  border-color: #f56565;
+  color: #f56565;
+}
+
+.dark .btn-secondary:hover {
+  background-color: #f56565;
+  color: #1a202c;
+}
+
+.dark .btn-theme-switch {
+  border-color: #a0aec0;
+  color: #a0aec0;
+}
+
+.dark .btn-theme-switch:hover {
+  background-color: #a0aec0;
+  color: #1a202c;
+}
+
+.dark .timer h1 {
+  color: #ffffff;
+}
+
+.timer h1 {
+  color: #000000;
+}
